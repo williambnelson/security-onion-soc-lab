@@ -1,4 +1,6 @@
-# AI-Assisted-SOC-Alert-Investigation
+# Case 001 — Security Onion so-test BitTorrent Alert Investigation
+
+**Exercise Type:** Known Synthetic/Validation Exercise
 
 1. **Scenario:** Through running the "so-test" alert on Security Onion, I generated a number of alerts. The one I investigated was "ET P2P BitTorrent Peer Sync".
 2. **Environment:** The environment is a Security Onion machine accessed through an Ubuntu Linux machine.
