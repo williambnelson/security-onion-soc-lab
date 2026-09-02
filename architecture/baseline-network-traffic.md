@@ -10,7 +10,7 @@ Establish what ordinary network activity looks like in Security Onion before beg
 - ICMP Ping
 - DNS Queries
 - HTTP Request
-- HTTPS REquest
+- HTTPS Request
 - Normal Web Browsing
 
 ## Collection Method
