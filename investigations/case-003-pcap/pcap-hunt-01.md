@@ -2,6 +2,7 @@
 
 **Exercise Type:** Known Synthetic/Validation Exercise
 
+
 **Hypothesis 1:** The primary goal of the attack was to steal network credentials.
 
 **Evidence:**
@@ -11,6 +12,7 @@
 
 **Conclusion:** I would say stealing credentials was likely a goal, although it may not have been the primary goal. Considering how much activity stayed within the network, the credentials may have simply been used for lateral movement and/or privilege escalation.
 
+
 **Hypothesis 2:** The attack mainly involved exploiting the network’s Kerberos protocol.
 
 **Evidence:**
@@ -18,6 +20,7 @@
 -	However, hunting krb_tcp and zeek.kerberos yields no results, meaning whatever Kerberos activity took place on the network did not warrant an alert.
 
 **Conclusion:** There was certainly Kerberos activity on the network. However, I cannot say for certain it was the main method used by the attackers due to the lack of alerts. They may have utilized Kerberoasting to crack tickets offline without setting off alarms, which would support my hypothesis. I cannot say for certain with the information I have available.
+
 
 **Hypothesis 3:** The attack was possible thanks to an outdated machine that was exposed to the internet.
 
