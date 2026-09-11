@@ -6,7 +6,7 @@
 2. **Environment:** The environment is a Security Onion machine accessed through an Ubuntu Linux machine.
 3. **Investigation Method:** 
 4. **Evidence:** 
-5. **Timeline:** Alerts like the indicated one started at  and ended at 10:59:02.
+5. **Timeline:** Alerts like the indicated one started at 2:07:32 and ended at 2:21:32.
 6. **ATT&CK Mapping:** 
 7. **Manual Findings:** 
 8. **AI-Assisted Findings:** 
