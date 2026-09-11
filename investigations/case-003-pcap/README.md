@@ -2,7 +2,7 @@
 
 **Exercise Type:** Known Synthetic/Validation Exercise
 
-1. **Scenario:** I downloaded a training PCAP online and uploaded it to Security Onion, then analyzed the generated alerts. The PCAP is mean to represent an attack against the network, though I did not check to see the exact kind of attack, as I wanted to discover that for myself.
+1. **Scenario:** I downloaded a training PCAP online and uploaded it to Security Onion, then analyzed the generated alerts. The PCAP is meant to represent an attack against the network, though I did not check to see the exact kind of attack, as I wanted to discover that for myself.
 2. **Environment:** The environment is a Security Onion machine accessed through an Ubuntu Linux machine.
 3. **Investigation Method:** The first thing I did was look at the generated network alerts. I filtered by category to try to find patterns in specific activity, taking note of specific IP addresses associated with different types of alerts. 
 4. **Evidence:** I noticed a number of zeek.ldap alerts, which led me to believe the simulated attack was likely to steal user credentials. I also noticed some zeek.kerberos alerts, which I thought could indicate an attempt at a Kerberoasting attack. I noticed some issues listed with certificates, which I thought could indicate a faulty machine used as an entry point to access the network.
