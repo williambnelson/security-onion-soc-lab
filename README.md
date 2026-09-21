@@ -12,22 +12,36 @@ All offensive or suspicious activity documented in this repository is generated 
 
 ## Investigations
 
- 
+Selected SOC investigations demonstrating alert triage, network/log analysis, evidence validation, MITRE ATT&CK mapping, and analyst judgment:
 
-### Case 001 — Security Onion so-test BitTorrent Alert Investigation
 
-Known-synthetic validation exercise involving Suricata alert triage,
 
-evidence interpretation, ATT&CK hypothesis evaluation, and AI-assisted analysis.
+### [Case 001 — Security Onion so-test BitTorrent Alert Investigation](investigations/case-001-so-test-bittorrent/README.md)
 
- 
+Known-synthetic validation exercise involving Suricata alert triage, evidence interpretation, ATT&CK hypothesis evaluation, and AI-assisted analysis.
 
-[View Case 001](investigations/case-001-so-test-bittorrent/README.md)
 
- 
+
+### [Case 002 — Security Onion so-test NetBIOS Alert Investigation](investigations/case-002-so-test-gpl-netbios/README.md)
+
+Known-synthetic validation exercise involving Suricata alert triage, evidence interpretation, ATT&CK hypothesis evaluation, and AI-assisted analysis.
+
+
+
+### [Case 003 — Imported PCAP Investigation](investigations/case-003-pcap/README.md)
+
+Known-synthetic validation exercise involving packet capture imports, Zeek alert triage, evidence interpretation, ATT&CK hypothesis evaluation, and AI-assisted analysis.
+
+
+
+### [Case 004 — Metasploitable Penetration and Detection](investigations/case-004-metasploitable/README.md)
+
+Controlled attack exercise against an imported virtual machine involving network reconnaissance, vulnerable protocol exploitation, Security Onion alert triage, and system hardening.
+
+
 
 ## Lab Architecture
 
- 
+
 
 [View Lab Architecture](architecture/lab-architecture.md)
