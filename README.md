@@ -39,6 +39,11 @@ Known-synthetic validation exercise involving packet capture imports, Zeek alert
 Controlled attack exercise against an imported virtual machine involving network reconnaissance, vulnerable protocol exploitation, Security Onion alert triage, and system hardening.
 
 
+### [Case 005 — OWASP Juice Shop Exploitation](investigations/case-005-owasp-juice-shop/README.md)
+
+Controlled attack exercise against an Ubuntu Server virtual machine running OWASP Juice Shop. Involves finding vulnerabilities in a web application, exploiting the vulnerabilities, and detecting the exploitation.
+
+
 
 ## Lab Architecture
 
