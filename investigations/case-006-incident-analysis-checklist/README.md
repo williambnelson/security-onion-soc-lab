@@ -82,3 +82,17 @@ My conclusion from Case 002 about the alerts being false positives has not chang
 
 ### Lessons Learned
 I learned some of the differences between a lab environment running Security Onion and a practical environment running Sentinel. Their systems of managing alerts and remediating vulnerabilities differ in a few key ways, in addition to how I manage my lab by myself.
+
+### Addendum – Visibility Gaps
+
+**What Network Evidence Proved:**
+
+Network evidence proved the IP addresses involved in the communications were both internal. Furthermore, the source ports involved in the communications were all for registered services. AI-assisted analysis of packet captures also indicated potential reconnaissance activity.
+
+**What Network Evidence Suggested:**
+
+The evidence suggested this represented a legitimate communication between network devices that was flagged as suspicious. The IP addresses were all within the network, and the registered services would likely not be used by attackers. However, the packet captures could indicate an external attack. The AI dismissed the notion in part because the URLs indicated synthetic traffic, but it did not know the synthetic traffic was meant to represent a test.
+
+**What Endpoint Logs could Confirm:**
+
+Endpoint logs could help confirm who was logged in to the relevant devices when the alerts were generated. If the circumstances of the logins were unusual, someone may have gained unauthorized access and started network reconnaissance disguised as normal activity. Alternatively, the logs might be able to confirm if a third party accessed the devices remotely and obtained control over them.
