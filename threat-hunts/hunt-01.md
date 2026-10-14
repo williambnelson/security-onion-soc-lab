@@ -1,4 +1,4 @@
-### Hunt 1: Unusual DNS Behavior
+## Hunt 1: Unusual DNS Behavior
 
 **Hypothesis:** A malicious actor may be performing reconnaissance to find an entry point into the network.
 
