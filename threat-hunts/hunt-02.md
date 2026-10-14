@@ -1,4 +1,4 @@
-### Hunt 2: Scanning/Connection Fan-Out
+## Hunt 2: Scanning/Connection Fan-Out
 
 **Hypothesis:** Someone may be enumerating the devices on the network without permission.
 
