@@ -4,7 +4,7 @@
 
 **Data:** 2026-10-01 PCAP downloaded from malware-traffic-analysis.net.
 
-**Query:** dataset: “zeek.dns”
+**Query:** “zeek.dns”
 
 **Result:** The communications are all over port 5353, which is reserved for Multicast Domain Name System (mDNS). This service lets devices query DNS services without needing a central DNS server. This occurs via queries to 224.0.0.251 for IPv4 or ff02::fb for IPv6. Looking at the results, all the communications involve one of those two IP addresses. The IPv4 communications all originate from 192.168.56.1, while the IPv6 communications originate from fe80::800:27ff:fe00:0.
 
