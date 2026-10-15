@@ -4,7 +4,7 @@
 
 **Data:** 2026-10-01 PCAP downloaded from malware-traffic-analysis.net.
 
-**Query:** dataset: “zeek.conn”, “10.10.1.128”
+**Query:** “zeek.conn”, “10.10.1.128”
 
 **Result:** All connection events originate from the IP address 10.10.1.128. In terms of connections, the IP addresses involved mostly fall into a pattern: multiple connections to 10.10.1.10, followed by one or two connections to external IP addresses. Almost all connections involve ports within the dynamic range, except for two. Those connections both use port 137 (NetBIOS Name Service). One is destined for 10.10.1.10, while the other is destined for 10.10.1.255.
 
