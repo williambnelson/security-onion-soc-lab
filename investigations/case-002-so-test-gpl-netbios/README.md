@@ -8,9 +8,11 @@ I looked into GPL NetBIOS, and it turned out to be a ruleset tied to SMB or NetB
 
 ### Hypotheses/Analysis
 The source port, port 1495, is a registered port meant for a specific service. After looking at similar alerts, their source ports were all registered for specific services. In addition, both IP addresses for this alert (as well as others of its kind) are internal addresses. Since there are many different source IP addresses, I also do not think this was a coordinated attack by a malicious third party, but a series of ordinary activities by normal network users. Based on this evidence, I hypothesize the alerts all represent false positives triggered by legitimate attempts to access different services. 
+
 If this is actually an attack, I hypothesize it falls under T1083: File and Directory Discovery. Since SMB is a file-sharing service, it is possible an attacker could have accessed an internal system and attempted to connect to it to discover network files.
 
 I asked AI to analyze one of the relevant alerts. Based on the content of the payloads detected, the AI found potential indication of reconnaissance. This could be part of a malicious attempt to enumerate network resources. However, upon inspecting the payloads present in the traffic, the AI determined it was much more likely a legitimate test to assess network security. It also corrected my initial hypothesis, changing it from “false positive” to “true positive detection/benign or expected activity”.
+
 However, one reason the AI flagged the traffic as benign was because the URLs detected in payloads (such as “example.com”) indicated synthetic traffic. Since the alerts all originated from my using so-test, this was indeed the case. However, the AI did not have the full context of the alerts being known synthetic, which clouded its judgement.
 
 ### Analyst Conclusion
