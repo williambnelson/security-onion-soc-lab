@@ -10,13 +10,13 @@ I looked a bit into BitTorrent since I didn't fully understand its purpose yet. 
 I hypothesized this was an attempt at data exfiltration from an unauthorized third party. To be specific, I thought this attack was a T1048: "Exfiltration through Alternate Protocol"; BitTorrent is not a protocol typically used by servers to communicate. 
 
 Looking into the destination IP address, I learned it came from a legitimate Brazilian digital infrastructure company called V Tal. I theorized the alert may have been a false positive triggered by a corporate partner attempting to access resources. However, I found it strange they would use BitTorrent for such a purpose. I theorized this may have been attempted exfiltration either by a rogue V Tal employee or by a third party using them as a proxy. In addition to the above mapping, this would classify the attack as a T1199: "Trusted Relationship" method. 
-
-
+ 
+ 
 After my initial investigation, I asked AI to analyze the alert. The AI found a few things I had overlooked, but there were two that stuck out. First of all, it determined based on packet capture there was little activity from BitTorrent, concluding the attempted exfiltration was unsuccessful. Therefore, it classified the alert as an "emerging threat", rather than an "indicator of compromise". I cannot call this conclusion definite; low traffic volume can characterize an event, but it cannot establish whether exfiltration was attempted or whether such an attempt succeeded. In either case, I would not assign T1048 as a confirmed ATT&CK technique at this time. 
 
 Second, it noted the Brazilian destination IP as normal; BitTorrent servers are located around the world. This would mean the attack may have not even originated from Brazil. In addition, my initial hypothesis about the T1199 ATT&CK method was likely incorrect. In addition, IP ownership by a legitimate company does not demonstrate an existing relationship with the victim or an abuse of said relationship.
-
-
+ 
+ 
 It should be noted the AI only had the context of the singular alert. After looking at alerts similar to the selected one, I noticed a number of destination IPs located around the globe. This fell in line with the earlier statement about destination IPs related to BitTorrent. Therefore, I determined all the alerts were likely part of the same attack, meaning this was not an attempt at connection from V Tal.
 
 ### Analyst Conclusion
