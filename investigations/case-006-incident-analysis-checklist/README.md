@@ -6,7 +6,7 @@ This was a known-synthetic/validation exercise. I ran the “so-test” command 
 ### Evidence or Trigger
 There are a number of Security Onion alerts categorized as "GPL NETBIOS SMB-DS IPC$ Unicode share access". This indicates potential SMB or NetBIOS intrusion. The destination port is 445, indicating Server Message Block activity as the more likely candidate.
 
-### Analysis / Hypotheses
+### Analysis/Hypotheses
 For the sake of this exercise, I will match this case up with my checklist:
 
 • Does the investigator have the Microsoft Sentinel Responder role?
