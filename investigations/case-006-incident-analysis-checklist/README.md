@@ -3,10 +3,10 @@
 ### Exercise Type/Objective
 This was a known-synthetic/validation exercise. I ran the “so-test” command from Security Onion and looked at the same alerts I investigated in the previous case. My objective was to redo Case 002 — Security Onion so-test GPL NetBIOS Alert Investigation, now with my newly made incident analysis checklist as a reference. I also aimed to identify what Sentinel-style evidence is absent in a network-only lab.
 
-### Evidence or Trigger
+### Evidence/Trigger
 There are a number of Security Onion alerts categorized as "GPL NETBIOS SMB-DS IPC$ Unicode share access". This indicates potential SMB or NetBIOS intrusion. The destination port is 445, indicating Server Message Block activity as the more likely candidate.
 
-### Analysis/Hypotheses
+### Hypotheses/Analysis
 For the sake of this exercise, I will match this case up with my checklist:
 
 • Does the investigator have the Microsoft Sentinel Responder role?
