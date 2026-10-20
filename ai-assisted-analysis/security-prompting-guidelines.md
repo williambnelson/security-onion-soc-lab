@@ -11,6 +11,9 @@
 ### Principles for SOC Work
 
 •	**Be clear and specific** – Specify exactly what you want
+
 •	**Add context** – Ensure the AI has all the information it needs to do its job
+
 •	**Use examples** – Give the AI a template if you want a specific style
+
 •	**Ask for structure** - This includes bullet points, tables, or numbered lists
