@@ -1,6 +1,6 @@
-### Security Prompting Guidelines
+## Security Prompting Guidelines
 
-#### Definitions
+### Definitions
 
 **Large Language Model (LLM):** Uses a bank of words and relations to generate completions based on prompts.
 
@@ -8,7 +8,7 @@
 
 **Agent:** Software applications built on Generative AI that can generate natural language, automate tasks, and take actions based on specific conditions.
 
-#### Principles for SOC Work
+### Principles for SOC Work
 
 •	**Be clear and specific** – Specify exactly what you want
 •	**Add context** – Ensure the AI has all the information it needs to do its job
