@@ -1,4 +1,4 @@
-<img width="840" height="602" alt="image" src="https://drive.google.com/file/d/1Sqa0HRRUNUefqIMh7ilg6PjbfNj-VXPL/view?usp=sharing" />
+<img width="1495" height="1069" alt="lab-architecture" src="https://github.com/user-attachments/assets/60b89f79-de3b-4468-9553-59e772f10c0b" />
 
 ## Network Design
 
