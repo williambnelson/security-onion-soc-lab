@@ -10,3 +10,6 @@
 **Expected True Positive:** Since zeek.conn triggers any time it detects TCP, UDP, or ICMP traffic, any detected connection would be a “true positive”. However, in a security context, a true positive would be a connection from an unusual source or for an unusual reason.
 
 **Likely False Positives:** A false positive for zeek.conn would be an ordinary connection flagged by the system. Alternatively, it could involve traffic that did not involve TCP, UDP, or ICMP.
+
+
+(NOTE: This analysis is marked for replacement)
